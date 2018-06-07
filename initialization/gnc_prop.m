@@ -1,0 +1,11 @@
+function init=gnc_prop(init)
+init.L_F=eye(3);
+init.K_F=diag([1/norm(h0_t);1/norm(h0_t);1/norm(h0_t);1/abs(E0_t);1;1;1]);
+muE=init.Earth.mu;
+m_follower= init.CubeSat.M;
+% Thrust_max= ;
+% Thrust_min= ;
+% ontime_max= ;
+% ontime_min= ;
+% Imp_max= ;
+% Imp_min= ;
